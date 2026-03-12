@@ -11,6 +11,10 @@
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www"
   },
+  "engines": {
+    "node": "22.21.0",
+    "npm": "10.9.4"
+  },
   "author": "Professor Krasso",
   "license": "MIT",
   "dependencies": {
