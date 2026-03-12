@@ -42,7 +42,6 @@ app.use(express.urlencoded({ extended: true }));
 app.get("/", async (req, res, next) => {
   // HTML content for the landing page
   const html = `
-  // HTML content for the landing page
  <html>
  <head>
  <title>Cookbook App</title>
